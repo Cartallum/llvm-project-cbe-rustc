@@ -1,0 +1,3 @@
+type summary add -F cbe_lookup.summary_lookup cbe_program::account_info::AccountInfo --category CBE
+type summary add -F cbe_lookup.summary_lookup cbe_program::pubkey::Pubkey --category CBE
+type category enable CBE
